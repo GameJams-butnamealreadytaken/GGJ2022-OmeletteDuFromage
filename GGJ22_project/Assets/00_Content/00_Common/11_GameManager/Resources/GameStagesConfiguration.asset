@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1dd31e3c8c278234bbf613147ac36cf8, type: 3}
+  m_Name: GameStagesConfiguration
+  m_EditorClassIdentifier: 
+  m_initialGameStage:
+    m_stageName: Main Menu
+    m_sceneName: 00_MainMenu
+  m_gameStagesInfos:
+  - m_stageName: Game
+    m_sceneName: 02_Game
+  - m_stageName: Main Menu
+    m_sceneName: 00_MainMenu
+  - m_stageName: S1L
+    m_sceneName: TestScene
+  - m_stageName: Th0re
+    m_sceneName: th0re_TestScene
+  - m_stageName: Character Selection Screen
+    m_sceneName: 03_CharacterSelectionScreen
+  - m_stageName: End Game
+    m_sceneName: 04_EndGame

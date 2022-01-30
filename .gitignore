@@ -10,8 +10,18 @@
 /[Ll]ogs/
 /[Mm]emoryCaptures/
 
+/GGJ22_project/Library/*
+/GGJ22_project/Temp/
+/GGJ22_project/Obj/
+/GGJ22_project/Build/
+/GGJ22_project/Builds/
+/GGJ22_project/Logs/
+/GGJ22_project/UserSettings/
+
 # Asset meta data should only be ignored when the corresponding asset is also ignored
 !/[Aa]ssets/**/*.meta
+
+!/GGJ22_project/Assets/**/*.meta
 
 # Uncomment this line if you wish to ignore the asset store tools plugin
 # /[Aa]ssets/AssetStoreTools*
@@ -57,4 +67,3 @@ sysinfo.txt
 
 # Crashlytics generated file
 crashlytics-build.properties
-
